@@ -1,4 +1,3 @@
-use CRA to start
 Make responsive
 Handle Errors when Routing to Page that Doesn't Exist
 
