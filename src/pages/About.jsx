@@ -4,7 +4,9 @@ export default function About() {
 
 /*
 
-Hi, my name is Jason Lieb.
+Hi, my name is
+Jason Lieb
+Full Stack Developer
 
 
 */
