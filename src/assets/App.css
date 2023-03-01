@@ -1,0 +1,39 @@
+/* * {
+  border: 1px red solid;
+} */
+
+html {
+  --background: #0c0c0c;
+}
+
+body {
+  background-color: var(--background);
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+footer .hstack {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+footer .vstack {
+  max-width: fit-content;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .width-100 {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+}

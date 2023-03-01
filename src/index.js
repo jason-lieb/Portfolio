@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import ErrorPage from './components/ErrorPage'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
-import Resume from './components/Resume'
+import ErrorPage from './pages/ErrorPage'
+import About from './pages/About'
+import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
+// import Resume from './pages/Resume'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -26,10 +26,10 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <Contact currentPage={'Contact'} />,
       },
-      {
-        path: 'resume',
-        element: <Resume currentPage={'Resume'} />,
-      },
+      // {
+      //   path: 'resume',
+      //   element: <Resume />,
+      // },
     ],
   },
 ])
