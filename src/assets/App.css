@@ -61,7 +61,12 @@ form {
   .width-100 {
     width: 100%;
   }
+
   .form {
     width: 100%;
+  }
+
+  svg {
+    width: 2rem;
   }
 }

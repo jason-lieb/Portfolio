@@ -32,7 +32,7 @@ export default function Contact() {
   }
 
   return (
-    <Container fluid className="my-3 page">
+    <Container fluid className="my-5 page">
       <h2 className="text-center">Contact</h2>
       <Container className="py-3 px-md-5 form">
         <Form onSubmit={submitForm}>
@@ -68,7 +68,7 @@ export default function Contact() {
           >
             <Form.Control
               as="textarea"
-              style={{ height: '8rem' }}
+              style={{ height: '16rem' }}
               placeholder=" "
               aria-label="message"
               onChange={checkIfEmpty}

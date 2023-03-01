@@ -1,3 +1,6 @@
+Choose color scheme
+Choose fonts
+
 Make responsive
 Handle Errors when Routing to Page that Doesn't Exist
 
