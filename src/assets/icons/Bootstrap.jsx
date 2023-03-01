@@ -1,10 +1,6 @@
 export default function Bootstrap() {
   return (
-    <svg
-      viewBox="0 0 128 128"
-      xmlns="http://www.w3.org/2000/svg"
-      width={'2rem'}
-    >
+    <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient
           id="bootstrap-original-a"

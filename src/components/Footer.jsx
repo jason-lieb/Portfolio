@@ -11,7 +11,7 @@ export default function Footer() {
       <Container fluid>
         <Stack direction="horizontal">
           <Stack>
-            <h6>Connect</h6>
+            <h5 className="mx-2">Connect</h5>
             <Stack direction="horizontal">
               <a
                 href="https://github.com/jason-lieb"
@@ -31,9 +31,9 @@ export default function Footer() {
               </a>
             </Stack>
           </Stack>
-          <p>© 2023 Jason Lieb</p>
+          <h6>© 2023 Jason Lieb</h6>
           <Stack align="right">
-            <h6>Built with</h6>
+            <h5 className="mx-2">Built with</h5>
             <Stack direction="horizontal">
               <div className="m-1">
                 <React />

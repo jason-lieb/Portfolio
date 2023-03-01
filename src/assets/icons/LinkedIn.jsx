@@ -1,6 +1,6 @@
 export default function LinkedIn() {
   return (
-    <svg fill="#2867b2" viewBox="0 0 36 36" width={'2rem'}>
+    <svg fill="#2867b2" viewBox="0 0 36 36">
       {/* hover fill #3a80d3*/}
       <path
         fillRule="evenodd"
