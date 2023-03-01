@@ -15,7 +15,7 @@ export default function Contact() {
     e.target.classList.remove('is-invalid')
     e.target.classList.remove('is-valid')
     const newClass = e.target.value.match(
-      /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+      /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
     )
       ? 'is-valid'
       : 'is-invalid'
@@ -25,7 +25,7 @@ export default function Contact() {
   function submitForm(e) {
     e.preventDefault()
     const email = e.target[1].value
-    if (!email.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) return
+    if (!email.match(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/)) return
     // const name = e.target[0].value
     // const message = e.target[2].value
     console.log('submitted')
