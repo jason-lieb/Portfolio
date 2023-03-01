@@ -1,7 +1,3 @@
-/* * {
-  border: 1px red solid;
-} */
-
 html {
   --background: #0c0c0c;
 }
@@ -9,6 +5,25 @@ html {
 body {
   background-color: var(--background);
   color: white;
+}
+
+.nav-link {
+  box-sizing: border-box;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+
+.active {
+  border: 1px solid red;
+  padding: 7px !important;
+  border-radius: 0.5rem;
+  color: red !important;
+}
+
+.resume {
+  color: white !important;
 }
 
 p {

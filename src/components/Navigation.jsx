@@ -2,15 +2,15 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import { LinkContainer } from 'react-router-bootstrap'
-// import { useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 export default function NavBar() {
-  // const location = useLocation()
-  // function selectedPage(page) {
-  //   if (location.pathname === page) {
-  //     return 'this page'
-  //   }
-  // }
+  const location = useLocation()
+  function activeClass(link) {
+    if (location.pathname === link) {
+      return 'active'
+    }
+  }
   return (
     <Navbar bg="dark" variant="dark" expand="md">
       <Container fluid>
@@ -24,7 +24,7 @@ export default function NavBar() {
         <Navbar.Collapse className="align-items-center">
           <Nav className="d-flex flex-row align-items-center justify-content-around mt-3 mt-md-0">
             <LinkContainer to={'/'}>
-              <Nav.Link>About</Nav.Link>
+              <Nav.Link className={activeClass('/about')}>About</Nav.Link>
             </LinkContainer>
             <LinkContainer to={'projects'}>
               <Nav.Link>Projects</Nav.Link>
@@ -33,7 +33,7 @@ export default function NavBar() {
               <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
             <a
-              className="nav-link"
+              className="nav-link active resume"
               href={require('../pages/Resume.pdf')}
               target="_blank"
               rel="noreferrer"
