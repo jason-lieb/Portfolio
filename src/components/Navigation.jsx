@@ -26,8 +26,8 @@ export default function NavBar() {
             <LinkContainer to={'/'}>
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
-            <LinkContainer to={'portfolio'}>
-              <Nav.Link>Portfolio</Nav.Link>
+            <LinkContainer to={'projects'}>
+              <Nav.Link>Projects</Nav.Link>
             </LinkContainer>
             <LinkContainer to={'contact'}>
               <Nav.Link>Contact</Nav.Link>
