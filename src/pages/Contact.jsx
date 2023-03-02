@@ -32,7 +32,10 @@ export default function Contact() {
   }
 
   return (
-    <Container fluid className="my-5 page">
+    <Container
+      fluid
+      className="my-5 page d-flex flex-column justify-content-center"
+    >
       <h2 className="text-center">Contact</h2>
       <Container className="py-3 px-md-5 form">
         <Form onSubmit={submitForm}>

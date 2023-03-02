@@ -11,13 +11,40 @@ svg {
   width: 3rem;
 }
 
-footer {
+.page {
+  min-height: 75vh;
+  /* height: fit-content; */
+  /* height: max(75vh, fit-content); */
+}
+
+span {
+  color: red;
+}
+
+.profile {
+  position: relative;
+  top: -1.5rem;
+  left: -1.5rem;
+  width: clamp(200px, 200px + 12vw, 400px);
+}
+
+.profile-container {
+  position: relative;
+  top: 1.5rem;
+  left: 1.5rem;
+  margin: 3rem;
+  outline: 5px solid red;
+  border-radius: 1rem;
+  height: fit-content;
+}
+
+/* footer {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   margin-bottom: 0.5rem;
-}
+} */
 
 .nav-link {
   margin: 0 0.25rem;
@@ -58,10 +85,6 @@ form {
 }
 
 @media (max-width: 768px) {
-  .width-100 {
-    width: 100%;
-  }
-
   .form {
     width: 100%;
   }
