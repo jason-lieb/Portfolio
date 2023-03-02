@@ -7,7 +7,7 @@ export default function About() {
       fluid
       className="my-md-5 page d-flex justify-content-center align-items-center container-xl"
     >
-      <Stack className="d-flex flex-md-row align-items-center">
+      <Stack className="d-flex flex-lg-row align-items-center">
         <div className="rounded-5 profile-container">
           <img
             className="rounded-5 profile"

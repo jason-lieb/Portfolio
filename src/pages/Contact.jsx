@@ -82,6 +82,7 @@ export default function Contact() {
               display: 'block',
               margin: '2rem auto 0',
               background: 'var(--accent)',
+              border: 'var(--accent)',
             }}
             type="submit"
           >

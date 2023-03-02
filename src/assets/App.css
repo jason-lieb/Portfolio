@@ -46,8 +46,8 @@ span {
 
 .profile-container {
   position: relative;
-  top: 1.5rem;
-  left: 1.5rem;
+  top: 0.75rem;
+  left: 0.75rem;
   margin: 3rem;
   outline: 5px solid var(--accent);
   border-radius: 1rem;
@@ -79,6 +79,10 @@ nav {
 
 h6 {
   margin: 0;
+}
+
+footer {
+  margin: 0.5rem 0;
 }
 
 footer .hstack {

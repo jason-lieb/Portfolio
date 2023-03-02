@@ -24,7 +24,7 @@ export default function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </Container>
         <Navbar.Collapse className="align-items-center">
-          <Nav className="d-flex flex-row align-items-center justify-content-around mt-3 mt-md-0">
+          <Nav className="d-flex flex-row align-items-center justify-content-around mt-3 mt-sm-0">
             <LinkContainer to={'/'}>
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
