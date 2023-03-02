@@ -34,9 +34,9 @@ export default function Contact() {
   return (
     <Container
       fluid
-      className="my-5 page d-flex flex-column justify-content-center"
+      className="my-md-5 page d-flex flex-column justify-content-center"
     >
-      <h2 className="text-center">Contact</h2>
+      <h2 className="text-center fw-bold">Contact</h2>
       <Container className="py-3 px-md-5 form">
         <Form onSubmit={submitForm}>
           <FloatingLabel
@@ -78,7 +78,11 @@ export default function Contact() {
             />
           </FloatingLabel>
           <Button
-            style={{ display: 'block', margin: '2rem auto 0' }}
+            style={{
+              display: 'block',
+              margin: '2rem auto 0',
+              background: 'var(--accent)',
+            }}
             type="submit"
           >
             Submit

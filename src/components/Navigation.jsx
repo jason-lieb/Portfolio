@@ -12,13 +12,15 @@ export default function NavBar() {
   //   }
   // }
   return (
-    <Navbar bg="dark" variant="dark" expand="md">
+    <Navbar variant="dark" expand="sm">
       <Container fluid>
         <Container
           fluid
           className="justify-content-between align-items-center d-inline-flex"
         >
-          <Navbar.Brand className="align-middle">Jason Lieb</Navbar.Brand>
+          <Navbar.Brand className="align-middle fw-bolder fs-3">
+            Jason Lieb
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </Container>
         <Navbar.Collapse className="align-items-center">

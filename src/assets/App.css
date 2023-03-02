@@ -1,10 +1,26 @@
 html {
-  --background: #0c0c0c;
+  /* --background: #0c0c0c; */
+  --background: #1c1d25;
+  --nav: #3c3d49;
+  --nav: #1c1d25;
+  --text: #b0b2c3;
+  --accent: #3498db;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  color: var(--text) !important;
 }
 
 body {
   background-color: var(--background);
-  color: white;
 }
 
 svg {
@@ -12,20 +28,20 @@ svg {
 }
 
 .page {
-  min-height: 75vh;
+  min-height: 73vh;
   /* height: fit-content; */
   /* height: max(75vh, fit-content); */
 }
 
 span {
-  color: red;
+  color: var(--accent) !important;
 }
 
 .profile {
   position: relative;
   top: -1.5rem;
   left: -1.5rem;
-  width: clamp(200px, 200px + 12vw, 400px);
+  width: clamp(200px, 200px + 12vw, 350px);
 }
 
 .profile-container {
@@ -33,37 +49,32 @@ span {
   top: 1.5rem;
   left: 1.5rem;
   margin: 3rem;
-  outline: 5px solid red;
+  outline: 5px solid var(--accent);
   border-radius: 1rem;
   height: fit-content;
 }
 
-/* footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  margin-bottom: 0.5rem;
-} */
+nav {
+  border-bottom: 1px solid var(--accent);
+}
 
 .nav-link {
   margin: 0 0.25rem;
-  color: white;
 }
 
 .nav-link:hover {
-  color: red !important;
+  color: var(--accent) !important;
 }
 
 .active {
-  border: 1px solid red;
+  border: 1px solid var(--accent);
   padding: 7px !important;
   border-radius: 0.5rem;
-  color: red !important;
+  color: var(--accent) !important;
 }
 
 .resume {
-  color: white !important;
+  color: var(--text) !important;
 }
 
 h6 {

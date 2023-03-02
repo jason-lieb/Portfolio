@@ -15,9 +15,11 @@ export default function About() {
             alt="Profile"
           />
         </div>
-        <Container className="d-flex flex-column justify-content-center">
-          <p>Hi, my name is</p>
-          <h2>Jason Lieb</h2>
+        <Container className="d-flex flex-column justify-content-center mx-lg-5">
+          <h5>Hi, my name is</h5>
+          <h1>
+            <span>Jason Lieb</span>
+          </h1>
           <h4>Full Stack Developer</h4>
           <p>I'm a software engineer based in Atlanta, GA</p>
           <p>
