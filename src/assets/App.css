@@ -28,7 +28,7 @@ svg {
 }
 
 .page {
-  min-height: 73vh;
+  min-height: 72vh;
   /* height: fit-content; */
   /* height: max(75vh, fit-content); */
 }
