@@ -5,9 +5,9 @@ export default function About() {
   return (
     <Container
       fluid
-      className="my-md-5 page d-flex justify-content-center align-items-center container-xl"
+      className="page d-flex justify-content-center align-items-center container-xl"
     >
-      <Stack className="d-flex flex-lg-row align-items-center">
+      <Stack className="d-flex flex-lg-row align-items-center justify-content-center">
         <div className="rounded-5 profile-container">
           <img
             className="rounded-5 profile"
@@ -15,7 +15,7 @@ export default function About() {
             alt="Profile"
           />
         </div>
-        <Container className="d-flex flex-column justify-content-center mx-lg-5">
+        <Container className="d-flex flex-column justify-content-center px-4 mx-lg-5">
           <h5>Hi, my name is</h5>
           <h1>
             <span>Jason Lieb</span>

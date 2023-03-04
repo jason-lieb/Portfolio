@@ -34,7 +34,7 @@ export default function Contact() {
   return (
     <Container
       fluid
-      className="my-md-5 page d-flex flex-column justify-content-center"
+      className="page d-flex flex-column justify-content-center align-items-center"
     >
       <h2 className="text-center fw-bold">Contact</h2>
       <Container className="py-3 px-md-5 form">

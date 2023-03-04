@@ -7,7 +7,7 @@ import Bootstrap from '../assets/icons/Bootstrap'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="d-flex align-items-center">
       <Container fluid>
         <Stack direction="horizontal">
           <Stack>
