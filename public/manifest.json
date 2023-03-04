@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Jason Lieb's Portfolio",
   "icons": [],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#3498db",
+  "background_color": "#1c1d25"
 }
