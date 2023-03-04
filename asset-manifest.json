@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ea88f80c.css",
-    "main.js": "/Portfolio/static/js/main.732cbc0f.js",
+    "main.js": "/Portfolio/static/js/main.2ff24fff.js",
+    "static/media/fiesta-collector.jpg": "/Portfolio/static/media/fiesta-collector.068ce971621fdb04917d.jpg",
+    "static/media/stock-visualizer.jpg": "/Portfolio/static/media/stock-visualizer.4f93861822ccef9851b0.jpg",
     "static/media/profile-pic.jpeg": "/Portfolio/static/media/profile-pic.bc5c4bac02e94ac1554f.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.ea88f80c.css.map": "/Portfolio/static/css/main.ea88f80c.css.map",
-    "main.732cbc0f.js.map": "/Portfolio/static/js/main.732cbc0f.js.map"
+    "main.2ff24fff.js.map": "/Portfolio/static/js/main.2ff24fff.js.map"
   },
   "entrypoints": [
     "static/css/main.ea88f80c.css",
-    "static/js/main.732cbc0f.js"
+    "static/js/main.2ff24fff.js"
   ]
 }
