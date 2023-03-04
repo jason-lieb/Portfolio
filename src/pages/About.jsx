@@ -11,7 +11,7 @@ export default function About() {
         <div className="rounded-5 profile-container">
           <img
             className="rounded-5 profile"
-            src={require('../assets/profile-pic.jpeg')}
+            src={require('../assets/images/profile-pic.jpeg')}
             alt="Profile"
           />
         </div>
