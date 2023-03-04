@@ -36,7 +36,7 @@ export default function NavBar() {
             </LinkContainer>
             <a
               className="nav-link active resume"
-              href={require('../pages/Resume.pdf')}
+              href={process.env.PUBLIC_URL + '/Resume.pdf'}
               target="_blank"
               rel="noreferrer"
             >
