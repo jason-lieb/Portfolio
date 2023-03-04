@@ -32,6 +32,15 @@ svg {
   width: 3rem;
 }
 
+.projectImg {
+  width: 300px;
+}
+
+.list-group-item svg {
+  width: 1.25rem;
+  margin-right: 0.5rem;
+}
+
 nav {
   min-height: 4.5rem;
 }
@@ -106,6 +115,10 @@ form {
   margin: 0 auto;
 }
 
+.projectDescription {
+  padding: 0.5rem;
+}
+
 @media (max-width: 991px) {
   .profile {
     top: 0;
@@ -126,6 +139,26 @@ form {
 
   svg {
     width: 2.5rem;
+  }
+
+  .projectImg {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .projectCard {
+    margin-bottom: -4rem;
+  }
+
+  .projectTitle {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .projectDescription {
+    position: relative;
+    padding-top: 3rem;
+    top: -3rem;
+    z-index: -1;
   }
 }
 

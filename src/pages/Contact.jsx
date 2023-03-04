@@ -11,85 +11,94 @@ export default function Contact() {
     e.target.classList.add(newClass)
   }
 
-  function checkIfEmail(e) {
-    e.target.classList.remove('is-invalid')
-    e.target.classList.remove('is-valid')
-    const newClass = e.target.value.match(
-      /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
-    )
-      ? 'is-valid'
-      : 'is-invalid'
-    e.target.classList.add(newClass)
-  }
+  // function checkIfEmail(e) {
+  //   e.target.classList.remove('is-invalid')
+  //   e.target.classList.remove('is-valid')
+  //   const newClass = e.target.value.match(
+  //     /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
+  //   )
+  //     ? 'is-valid'
+  //     : 'is-invalid'
+  //   e.target.classList.add(newClass)
+  // }
 
   function submitForm(e) {
     e.preventDefault()
-    const email = e.target[1].value
-    if (!email.match(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/)) return
-    // const name = e.target[0].value
-    // const message = e.target[2].value
-    console.log('submitted')
+    // if (!email.match(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/)) return
+    const body = `Hi Jason,%0D%0A
+    ${e.target[2].value}%0D%0A
+    Best Regards,%0D%0A
+    ${e.target[0].value}`
+
+    window.open(
+      `mailto:jason.lieb@outlook.com?subject=${e.target[1].value}&body=${body}`
+    )
   }
-
   return (
-    <Container
-      fluid
-      className="page d-flex flex-column justify-content-center align-items-center"
-    >
-      <h2 className="text-center fw-bold">Contact</h2>
-      <Container className="py-3 px-md-5 form">
-        <Form onSubmit={submitForm}>
-          <FloatingLabel
-            className="text-dark m-3"
-            controlId="floatingName"
-            label="Name"
-          >
-            <Form.Control
-              type="text"
-              placeholder=" "
-              aria-label="name"
-              onChange={checkIfEmpty}
-            />
-          </FloatingLabel>
-          <FloatingLabel
-            className="text-dark m-3"
-            controlId="floatingEmail"
-            label="Email"
-          >
-            <Form.Control
-              type="email"
-              placeholder=" "
-              aria-label="email"
-              onChange={checkIfEmail}
-            />
-          </FloatingLabel>
+    <main>
+      <Container
+        fluid
+        className="page d-flex flex-column justify-content-center align-items-center"
+      >
+        <h2 className="text-center fw-bold">
+          <span>Contact</span>
+        </h2>
+        <Container className="py-3 px-md-5 form">
+          <Form onSubmit={submitForm}>
+            <FloatingLabel
+              className="text-dark m-3"
+              controlId="floatingName"
+              label="Name"
+            >
+              <Form.Control
+                type="text"
+                placeholder=" "
+                aria-label="name"
+                onChange={checkIfEmpty}
+              />
+            </FloatingLabel>
+            <FloatingLabel
+              className="text-dark m-3"
+              controlId="floatingSubject"
+              label="Subject"
+            >
+              <Form.Control
+                type="text"
+                placeholder=" "
+                aria-label="subject"
+                onChange={checkIfEmpty}
+              />
+            </FloatingLabel>
 
-          <FloatingLabel
-            className="text-dark m-3"
-            controlId="floatingMessage"
-            label="Message"
-          >
-            <Form.Control
-              as="textarea"
-              style={{ height: '16rem' }}
-              placeholder=" "
-              aria-label="message"
-              onChange={checkIfEmpty}
-            />
-          </FloatingLabel>
-          <Button
-            style={{
-              display: 'block',
-              margin: '2rem auto 0',
-              background: 'var(--accent)',
-              border: 'var(--accent)',
-            }}
-            type="submit"
-          >
-            Submit
-          </Button>
-        </Form>
+            <FloatingLabel
+              className="text-dark m-3"
+              controlId="floatingMessage"
+              label="Message"
+            >
+              <Form.Control
+                as="textarea"
+                style={{ height: '16rem' }}
+                placeholder=" "
+                aria-label="message"
+                onChange={checkIfEmpty}
+              />
+            </FloatingLabel>
+
+            <Button
+              style={{
+                display: 'block',
+                margin: '2rem auto 0',
+                background: 'var(--accent)',
+                border: 'var(--accent)',
+                color: 'black',
+              }}
+              type="submit"
+            >
+              Submit
+            </Button>
+          </Form>
+        </Container>
       </Container>
-    </Container>
+    </main>
   )
 }

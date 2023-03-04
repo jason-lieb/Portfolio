@@ -8,6 +8,7 @@ export default function Portfolio() {
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est perspiciatis repellat in qui necessitatibus expedita odio, ab dicta inventore iste. Eius et ratione enim minima tempore magnam aliquid voluptas ab!',
       image: 'stock-visualizer.jpg',
       alt: 'Stock chart on computer',
+      technologies: ['React', 'Bootstrap', 'Vite', 'Google Charts'],
     },
     {
       title: 'Fiesta Collector',
@@ -15,10 +16,18 @@ export default function Portfolio() {
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est perspiciatis repellat in qui necessitatibus expedita odio, ab dicta inventore iste. Eius et ratione enim minima tempore magnam aliquid voluptas ab!',
       image: 'fiesta-collector.jpg',
       alt: 'Collection of fiestaware',
+      technologies: [
+        'NodeJS',
+        'Express',
+        'MySQL',
+        'Handlebars',
+        'Tailwind',
+        'Heroku',
+      ],
     },
   ]
   return (
-    <div className="page">
+    <main className="page py-sm-4">
       {projects.map((project, index) => (
         <Project
           key={index}
@@ -26,8 +35,9 @@ export default function Portfolio() {
           description={project.description}
           image={project.image}
           alt={project.alt}
+          technologies={project.technologies}
         />
       ))}
-    </div>
+    </main>
   )
 }
