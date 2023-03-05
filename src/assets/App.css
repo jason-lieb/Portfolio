@@ -125,6 +125,7 @@ form {
   padding: 0.5rem;
   flex-grow: 0;
   background-color: var(--textBackground);
+  box-shadow: 0 0.5rem 1rem rgba(52, 152, 219, 0.25);
 }
 
 .projectSVG svg {

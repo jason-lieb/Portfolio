@@ -45,10 +45,6 @@ export default function Project({
       : { gridArea: '1 / 1 / -1 / -6' }
   const textAlignClass = index % 2 === 1 ? 'text-end' : 'text-start'
   const iconAlignClass = index % 2 === 1 ? 'align-self-end' : 'align-self-start'
-  const stackStyle = {
-    border: '1px var(--accent) solid',
-    backgroundColor: 'var(--textBackground)',
-  }
   const listGroupItemStyle = {
     backgroundColor: 'var(--textBackground)',
     border: 'none',
@@ -68,7 +64,12 @@ export default function Project({
         <h3 className={`projectTitle px-md-3 ${textAlignClass}`}>
           <span>{title}</span>
         </h3>
-        <Stack style={stackStyle} className="projectDescription shadow-lg">
+        <Stack
+          style={{
+            backgroundColor: 'var(--textBackground)',
+          }}
+          className="projectDescription rounded-3"
+        >
           <p>{description}</p>
           <ListGroup horizontal className="flex-wrap">
             {technologies.map((tech, index) => (
@@ -79,7 +80,11 @@ export default function Project({
             ))}
           </ListGroup>
         </Stack>
-        <Stack direction="horizontal" className={`p-2 ${iconAlignClass}`}>
+        <Stack
+          direction="horizontal"
+          style={{ marginTop: '1rem' }}
+          className={`p-2 ${iconAlignClass}`}
+        >
           <a href={repo} className="projectSVG">
             <Github />
           </a>
