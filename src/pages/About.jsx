@@ -5,8 +5,8 @@ export default function About() {
   return (
     <main>
       <Container
-        fluid
-        className="page d-flex justify-content-center align-items-center container-xl"
+        fluid="xl"
+        className="page d-flex justify-content-center align-items-center"
       >
         <Stack className="d-flex flex-lg-row align-items-center justify-content-center">
           <div className="rounded-5 profile-container">

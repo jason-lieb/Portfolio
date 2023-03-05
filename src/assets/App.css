@@ -6,6 +6,7 @@ body {
 
 html {
   --background: #1c1d25;
+  --textBackground: #17202a;
   --nav: #3c3d49;
   --nav: #1c1d25;
   --text: #b0b2c3;
@@ -30,15 +31,6 @@ body {
 
 svg {
   width: 3rem;
-}
-
-.projectImg {
-  width: 300px;
-}
-
-.list-group-item svg {
-  width: 1.25rem;
-  margin-right: 0.5rem;
 }
 
 nav {
@@ -115,8 +107,33 @@ form {
   margin: 0 auto;
 }
 
+.projectImg {
+  width: clamp(300px, 300px + 15vw, 600px);
+}
+
+.projectCard {
+  max-width: 60rem;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.list-group-item svg {
+  width: 1.25rem;
+  margin-right: 0.5rem;
+}
+
 .projectDescription {
   padding: 0.5rem;
+  flex-grow: 0;
+  background-color: var(--textBackground);
+}
+
+.projectSVG svg {
+  width: 2rem;
+  fill: var(--accent);
+}
+
+.projectSVG svg:hover {
+  fill: white;
 }
 
 @media (max-width: 991px) {
@@ -142,16 +159,20 @@ form {
   }
 
   .projectImg {
+    max-width: 450px;
+    margin: 0 auto 1rem;
     width: 100%;
-    margin-bottom: 1rem;
   }
   .projectCard {
+    display: flex !important;
+    flex-direction: column;
     margin-bottom: -4rem;
   }
 
   .projectTitle {
     margin-left: 0.5rem;
     margin-top: 1rem;
+    text-align: left !important;
   }
 
   .projectDescription {

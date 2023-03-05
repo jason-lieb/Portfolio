@@ -9,6 +9,8 @@ export default function Portfolio() {
       image: 'stock-visualizer.jpg',
       alt: 'Stock chart on computer',
       technologies: ['React', 'Bootstrap', 'Vite', 'Google Charts'],
+      repo: 'https://github.com/jason-lieb/Stock-Visualizer',
+      deploy: 'https://jason-lieb.github.io/Stock-Visualizer/',
     },
     {
       title: 'Fiesta Collector',
@@ -24,6 +26,8 @@ export default function Portfolio() {
         'Tailwind',
         'Heroku',
       ],
+      repo: 'https://github.com/jason-lieb/Fiesta-Collector',
+      deploy: 'https://fiesta-collector.herokuapp.com/',
     },
   ]
   return (
@@ -31,10 +35,13 @@ export default function Portfolio() {
       {projects.map((project, index) => (
         <Project
           key={index}
+          index={index}
           title={project.title}
           description={project.description}
           image={project.image}
           alt={project.alt}
+          repo={project.repo}
+          deploy={project.deploy}
           technologies={project.technologies}
         />
       ))}
