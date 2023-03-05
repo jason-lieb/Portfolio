@@ -128,6 +128,10 @@ form {
   box-shadow: 0 0.5rem 1rem rgba(52, 152, 219, 0.25);
 }
 
+.projectLinks {
+  margin-top: 1rem;
+}
+
 .projectSVG svg {
   width: 2rem;
   fill: var(--accent);
@@ -181,6 +185,12 @@ form {
     padding-top: 3rem;
     top: -3rem;
     z-index: -1;
+  }
+
+  .projectLinks {
+    position: relative;
+    top: -2rem;
+    margin-top: 0;
   }
 }
 

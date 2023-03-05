@@ -82,8 +82,7 @@ export default function Project({
         </Stack>
         <Stack
           direction="horizontal"
-          style={{ marginTop: '1rem' }}
-          className={`p-2 ${iconAlignClass}`}
+          className={`p-2 ${iconAlignClass} projectLinks`}
         >
           <a href={repo} className="projectSVG">
             <Github />
