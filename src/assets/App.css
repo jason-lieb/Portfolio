@@ -191,6 +191,7 @@ form {
     position: relative;
     top: -2rem;
     margin-top: 0;
+    align-self: start !important;
   }
 }
 
