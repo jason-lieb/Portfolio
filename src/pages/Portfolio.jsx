@@ -16,7 +16,7 @@ export default function Portfolio() {
       title: 'Fiesta Collector',
       description:
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est perspiciatis repellat in qui necessitatibus expedita odio, ab dicta inventore iste. Eius et ratione enim minima tempore magnam aliquid voluptas ab!',
-      image: 'fiesta-collector.jpg',
+      image: 'fiesta-collector.jpg', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Fiesta_at_Macys_in_East_Wenatchee.jpg
       alt: 'Collection of fiestaware',
       technologies: [
         'NodeJS',
