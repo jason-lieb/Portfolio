@@ -8,7 +8,7 @@ export default function Portfolio() {
         'A Svelte chrome extension designed to manage tabs to improve computer performance and ease organization',
       image: 'browser-hero.png',
       alt: 'Browser Hero screenshot',
-      technologies: ['Svelte', 'Pico.CSS', 'Vite'],
+      technologies: ['Svelte', 'Vite', 'Pico.CSS'],
       repo: 'https://github.com/jason-lieb/Browser-Hero',
       deploy: '',
       extension: true,

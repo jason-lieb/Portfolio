@@ -13,6 +13,7 @@ import Tailwind from '../assets/icons/Tailwind'
 import NodeJS from '../assets/icons/NodeJS'
 import Vite from '../assets/icons/Vite'
 import Github from '../assets/icons/Github'
+import Svelte from '../assets/icons/Svelte'
 
 export default function Project({
   title,
@@ -34,6 +35,7 @@ export default function Project({
     Tailwind,
     Sequelize,
     Vite,
+    Svelte,
   }
   const layoutImg =
     index % 2 === 0
