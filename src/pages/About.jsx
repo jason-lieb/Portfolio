@@ -3,16 +3,24 @@ import { ListGroup } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container'
 import Stack from 'react-bootstrap/Stack'
 
+import HTML from '../assets/icons/HTML'
+import CSS from '../assets/icons/CSS'
+import Javascript from '../assets/icons/Javascript'
 import ReactIcon from '../assets/icons/React'
+import Svelte from '../assets/icons/Svelte'
+import Redux from '../assets/icons/Redux'
+import jQuery from '../assets/icons/jQuery'
+import Jest from '../assets/icons/Jest'
+import Tailwind from '../assets/icons/Tailwind'
 import Bootstrap from '../assets/icons/Bootstrap'
+import Vite from '../assets/icons/Vite'
+import Webpack from '../assets/icons/Webpack'
+import NodeJS from '../assets/icons/NodeJS'
 import Express from '../assets/icons/Express'
 import Handlebars from '../assets/icons/Handlebars'
 import MySQL from '../assets/icons/MySQL'
 import Sequelize from '../assets/icons/Sequelize'
-import Tailwind from '../assets/icons/Tailwind'
-import NodeJS from '../assets/icons/NodeJS'
-import Vite from '../assets/icons/Vite'
-import Svelte from '../assets/icons/Svelte'
+import MongoDB from '../assets/icons/MongoDB'
 
 export default function About() {
   const skills = [
@@ -21,10 +29,13 @@ export default function About() {
     'Javascript',
     'React',
     'Svelte',
+    'Redux',
     'Tailwind',
     'Bootstrap',
     'Vite',
     'Webpack',
+    'jQuery',
+    'Jest',
     'NodeJS',
     'Express',
     'Handlebars',
@@ -32,6 +43,7 @@ export default function About() {
     'Sequelize',
     'MongoDB',
     'Mongoose',
+    'Heroku',
   ]
   const listGroupItemStyle = {
     backgroundColor: 'var(--background)',
@@ -41,16 +53,24 @@ export default function About() {
     color: 'var(--text)',
   }
   const icons = {
+    HTML,
+    CSS,
+    Javascript,
     React: ReactIcon,
+    Svelte,
+    Redux,
+    Tailwind,
     Bootstrap,
+    Vite,
+    Webpack,
+    jQuery,
+    Jest,
     NodeJS,
     Express,
     Handlebars,
     MySQL,
-    Tailwind,
     Sequelize,
-    Vite,
-    Svelte,
+    MongoDB,
   }
   return (
     <main>
