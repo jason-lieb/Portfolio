@@ -100,8 +100,8 @@ export default function About() {
               was interested by coding, but I never thought I would switch
               fields. However, as I began working, my enthusiasm for mechanical
               design waned. I was hesitant to switch careers due to the time
-              required to get additional schooling. However, everything changed
-              when I had dinner with a friend while on vacation in the Galapagos
+              required to get additional schooling, but everything changed when
+              I caught up with a friend while on vacation in the Galapagos
               Islands. He suggested that I enroll in a coding bootcamp.
             </p>
             <p>
