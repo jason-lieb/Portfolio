@@ -3,10 +3,21 @@ import Project from '../components/Project'
 export default function Portfolio() {
   const projects = [
     {
+      title: 'Browser Hero',
+      description:
+        'A Svelte chrome extension designed to manage tabs to improve computer performance and ease organization',
+      image: 'browser-hero.png',
+      alt: 'Browser Hero screenshot',
+      technologies: ['Svelte', 'Pico.CSS', 'Vite'],
+      repo: 'https://github.com/jason-lieb/Browser-Hero',
+      deploy: '',
+      extension: true,
+    },
+    {
       title: 'Stock Visualizer',
       description:
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est perspiciatis repellat in qui necessitatibus expedita odio, ab dicta inventore iste. Eius et ratione enim minima tempore magnam aliquid voluptas ab!',
-      image: 'stock-visualizer.jpg',
+        'An SPA that shows historical data for popular stocks, currency exchange rates, and US government data',
+      image: 'stock-visualizer.jpg', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Blur-chart-data-69760.jpg
       alt: 'Stock chart on computer',
       technologies: ['React', 'Bootstrap', 'Vite', 'Google Charts'],
       repo: 'https://github.com/jason-lieb/Stock-Visualizer',
@@ -15,7 +26,7 @@ export default function Portfolio() {
     {
       title: 'Fiesta Collector',
       description:
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est perspiciatis repellat in qui necessitatibus expedita odio, ab dicta inventore iste. Eius et ratione enim minima tempore magnam aliquid voluptas ab!',
+        'An inventory application for collections of Art Deco style dinnerware using Express and MySQL',
       image: 'fiesta-collector.jpg', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Fiesta_at_Macys_in_East_Wenatchee.jpg
       alt: 'Collection of fiestaware',
       technologies: [
@@ -43,6 +54,7 @@ export default function Portfolio() {
           repo={project.repo}
           deploy={project.deploy}
           technologies={project.technologies}
+          extension={project.extension}
         />
       ))}
     </main>

@@ -36,15 +36,15 @@ export default function Project({
     Vite,
   }
   const layoutImg =
-    index % 2 === 1
+    index % 2 === 0
       ? { gridArea: '1 / 1 / -1 / -6' }
       : { gridArea: '1 / 6 / -1 / -1' }
   const layoutText =
-    index % 2 === 1
+    index % 2 === 0
       ? { gridArea: '1 / 6 / -1 / -1' }
       : { gridArea: '1 / 1 / -1 / -6' }
-  const textAlignClass = index % 2 === 1 ? 'text-end' : 'text-start'
-  const iconAlignClass = index % 2 === 1 ? 'align-self-end' : 'align-self-start'
+  const textAlignClass = index % 2 === 0 ? 'text-end' : 'text-start'
+  const iconAlignClass = index % 2 === 0 ? 'align-self-end' : 'align-self-start'
   const listGroupItemStyle = {
     backgroundColor: 'var(--textBackground)',
     border: 'none',
