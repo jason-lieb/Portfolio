@@ -1,25 +1,42 @@
 import Project from '../components/Project'
 
 export default function Portfolio() {
+  /*
+What was the outcome
+Why build this project?
+What challenged?
+What was learned?
+How has this helped future projects
+What do differently
+Process (wireframes, trello, github project)
+Technologies used?
+Notable Features
+
+*/
   const projects = [
-    {
-      title: 'Browser Hero',
-      description:
-        'A Svelte chrome extension designed to manage tabs to improve computer performance and ease organization',
-      image: 'browser-hero.png',
-      alt: 'Browser Hero screenshot',
-      technologies: ['Svelte', 'Vite', 'Pico.CSS'],
-      repo: 'https://github.com/jason-lieb/Browser-Hero',
-      deploy: '',
-      extension: true,
-    },
+    // {
+    //   title: 'Browse Smart',
+    //   description:
+    //     'A Svelte Chrome extension designed to manage tabs to improve computer performance and ease organization',
+    //   image: 'browse-smart.png',
+    //   alt: 'Browse Smart screenshot',
+    //   technologies: ['Svelte', 'Vite', 'Pico.CSS'],
+    //   repo: 'https://github.com/jason-lieb/Browse-Smart',
+    //   deploy: '',
+    // },
     {
       title: 'Stock Visualizer',
       description:
-        'An SPA that shows historical data for popular stocks, currency exchange rates, and US government data',
+        'A single page application that shows historical data for popular stocks, currency exchange rates, and US government data',
       image: 'stock-visualizer.jpg', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Blur-chart-data-69760.jpg
       alt: 'Stock chart on computer',
-      technologies: ['React', 'Bootstrap', 'Vite', 'Google Charts'],
+      technologies: [
+        'React',
+        'Bootstrap',
+        'Vite',
+        'React Query',
+        'Google Charts',
+      ],
       repo: 'https://github.com/jason-lieb/Stock-Visualizer',
       deploy: 'https://jason-lieb.github.io/Stock-Visualizer/',
     },

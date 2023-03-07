@@ -100,15 +100,3 @@ export default function Project({
     </Container>
   )
 }
-
-/*
-What was the outcome
-Why build this project?
-What challenged?
-What was learned?
-How has this helped future projects
-What do differently
-Process (wireframes, trello, github project)
-Technologies used?
-
-*/
