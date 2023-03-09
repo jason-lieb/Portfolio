@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d8092329.css",
-    "main.js": "/Portfolio/static/js/main.5c756ecd.js",
+    "main.js": "/Portfolio/static/js/main.ec26ec3b.js",
     "static/media/fiesta-collector.jpg": "/Portfolio/static/media/fiesta-collector.068ce971621fdb04917d.jpg",
     "static/media/stock-visualizer.jpg": "/Portfolio/static/media/stock-visualizer.4f93861822ccef9851b0.jpg",
     "static/media/browse-smart.png": "/Portfolio/static/media/browse-smart.35cc94e656a142b9aea4.png",
     "static/media/profile-pic.jpeg": "/Portfolio/static/media/profile-pic.bc5c4bac02e94ac1554f.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.d8092329.css.map": "/Portfolio/static/css/main.d8092329.css.map",
-    "main.5c756ecd.js.map": "/Portfolio/static/js/main.5c756ecd.js.map"
+    "main.ec26ec3b.js.map": "/Portfolio/static/js/main.ec26ec3b.js.map"
   },
   "entrypoints": [
     "static/css/main.d8092329.css",
-    "static/js/main.5c756ecd.js"
+    "static/js/main.ec26ec3b.js"
   ]
 }
