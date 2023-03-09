@@ -106,10 +106,12 @@ export default function About() {
             </p>
             <p>
               Upon returning, I began <span>self-studying</span> web development
-              and, three months later, I quit my job to attend
-              <span> Georgia Tech's full stack bootcamp</span>. Since then, I
-              have been fully dedicated to my new career and haven't looked
-              back.
+              and, three months later, I transitioned to pursuing a{' '}
+              <span>
+                certificate in Full Stack Web Development from Georgia Tech
+              </span>{' '}
+              full-time. Since then, I have been fully dedicated to my new
+              career and haven't looked back.
             </p>
             <h4>Skills</h4>
             <ListGroup horizontal className="flex-wrap">
