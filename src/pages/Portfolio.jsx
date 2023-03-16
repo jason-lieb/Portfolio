@@ -25,6 +25,26 @@ Notable Features
     //   deploy: '',
     // },
     {
+      title: 'Rhythm Room',
+      description:
+        'A full stack MERN web application to create and share playlists using GraphQL and JSON Web Tokens',
+      image: 'rhythm-room.png',
+      alt: 'Rhythm Room screenshot',
+      technologies: [
+        'React',
+        'NodeJS',
+        'Express',
+        'MongoDB',
+        'GraphQL',
+        'Material UI',
+        'Spotify API',
+        'OpenAI API',
+        'Heroku',
+      ],
+      repo: 'https://github.com/jason-lieb/Rhythm-Room',
+      deploy: 'https://rhythm-room.herokuapp.com/',
+    },
+    {
       title: 'Stock Visualizer',
       description:
         'A single page application that shows historical data for popular stocks, currency exchange rates, and US government data',
