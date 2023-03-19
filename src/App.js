@@ -14,8 +14,8 @@ function App({ currentPage }) {
       <Header page={currentPage} />
       <Routes>
         <Route index element={<About />} />
-        <Route path="/projects" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="projects" element={<Portfolio />} />
+        <Route path="contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
