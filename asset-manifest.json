@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d8092329.css",
-    "main.js": "/Portfolio/static/js/main.d1aedc81.js",
+    "main.js": "/Portfolio/static/js/main.4e6236e0.js",
     "static/media/rhythm-room.png": "/Portfolio/static/media/rhythm-room.be39c18e174897c6447f.png",
     "static/media/fiesta-collector.jpg": "/Portfolio/static/media/fiesta-collector.068ce971621fdb04917d.jpg",
     "static/media/stock-visualizer.jpg": "/Portfolio/static/media/stock-visualizer.4f93861822ccef9851b0.jpg",
@@ -9,10 +9,10 @@
     "static/media/profile-pic.jpeg": "/Portfolio/static/media/profile-pic.bc5c4bac02e94ac1554f.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.d8092329.css.map": "/Portfolio/static/css/main.d8092329.css.map",
-    "main.d1aedc81.js.map": "/Portfolio/static/js/main.d1aedc81.js.map"
+    "main.4e6236e0.js.map": "/Portfolio/static/js/main.4e6236e0.js.map"
   },
   "entrypoints": [
     "static/css/main.d8092329.css",
-    "static/js/main.d1aedc81.js"
+    "static/js/main.4e6236e0.js"
   ]
 }
