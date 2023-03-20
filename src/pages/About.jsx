@@ -21,6 +21,7 @@ import Handlebars from '../assets/icons/Handlebars'
 import MySQL from '../assets/icons/MySQL'
 import Sequelize from '../assets/icons/Sequelize'
 import MongoDB from '../assets/icons/MongoDB'
+import Heroku from '../assets/icons/Heroku'
 
 export default function About() {
   const skills = [
@@ -71,6 +72,7 @@ export default function About() {
     MySQL,
     Sequelize,
     MongoDB,
+    Heroku,
   }
   return (
     <main>

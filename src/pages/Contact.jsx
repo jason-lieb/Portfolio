@@ -24,6 +24,7 @@ export default function Contact() {
 
   function submitForm(e) {
     e.preventDefault()
+    if (!e.target[0].value || !e.target[1].value || !e.target[2].value) return
     // if (!email.match(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/)) return
     const body = `Hi Jason,%0D%0A
     ${e.target[2].value}%0D%0A

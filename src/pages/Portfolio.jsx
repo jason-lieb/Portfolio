@@ -14,20 +14,20 @@ Notable Features
 
 */
   const projects = [
-    // {
-    //   title: 'Browse Smart',
-    //   description:
-    //     'A Svelte Chrome extension designed to manage tabs to improve computer performance and ease organization',
-    //   image: 'browse-smart.png',
-    //   alt: 'Browse Smart screenshot',
-    //   technologies: ['Svelte', 'Vite', 'Pico.CSS'],
-    //   repo: 'https://github.com/jason-lieb/Browse-Smart',
-    //   deploy: '',
-    // },
+    {
+      title: 'Browse Smart',
+      description:
+        "A Chrome Extension that creates a pinned tab in each window and syncs with a background service worker to display open tabs and allow the user to delete or sleep tabs for organization and speed. Currently awaiting Google's approval to be published on the Chrome Web Store.",
+      image: 'browse-smart.png',
+      alt: 'Browse Smart screenshot',
+      technologies: ['Svelte', 'Vite', 'Pico.CSS', 'Chrome Manifest V3'],
+      repo: 'https://github.com/jason-lieb/Browse-Smart',
+      deploy: '',
+    },
     {
       title: 'Rhythm Room',
       description:
-        'A full stack MERN web application to create and share playlists using GraphQL and JSON Web Tokens',
+        'A full-stack MERN web application to create and share playlists using Spotify and OpenAI APIs',
       image: 'rhythm-room.png',
       alt: 'Rhythm Room screenshot',
       technologies: [
