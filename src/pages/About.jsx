@@ -102,7 +102,7 @@ export default function About() {
             <h1>
               <span>Jason Lieb</span>
             </h1>
-            <h4>Full Stack Developer</h4>
+            <h4>Full Stack Software Engineer</h4>
             <p>
               I'm a <span>software engineer</span> based in Atlanta, GA
             </p>

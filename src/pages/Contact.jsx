@@ -98,6 +98,18 @@ export default function Contact() {
               Submit
             </Button>
           </Form>
+          <p
+            style={{
+              textAlign: 'center',
+              marginTop: '2rem',
+              fontSize: '1.125rem',
+            }}
+          >
+            Or email me at{' '}
+            <span>
+              <a href="mailto:jason.lieb@outlook.com">Jason.Lieb@outlook.com</a>
+            </span>
+          </p>
         </Container>
       </Container>
     </main>

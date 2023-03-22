@@ -17,12 +17,13 @@ Notable Features
     {
       title: 'Browse Smart',
       description:
-        "A Chrome Extension that creates a pinned tab in each window and syncs with a background service worker to display open tabs and allow the user to delete or sleep tabs for organization and speed. Currently awaiting Google's approval to be published on the Chrome Web Store.",
+        'A Chrome Extension that creates a pinned tab in each window and syncs with a background service worker to display open tabs and allow the user to delete or sleep tabs for organization and speed. Published on the Chrome Web Store.',
       image: 'browse-smart.png',
       alt: 'Browse Smart screenshot',
       technologies: ['Svelte', 'Vite', 'Pico.CSS', 'Chrome Manifest V3'],
       repo: 'https://github.com/jason-lieb/Browse-Smart',
-      deploy: '',
+      deploy:
+        'https://chrome.google.com/webstore/detail/browse-smart/cfaokojidpjmmpaoheemadkjmmoecdlc',
     },
     {
       title: 'Rhythm Room',
