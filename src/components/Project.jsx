@@ -17,6 +17,8 @@ import Svelte from '../assets/icons/Svelte'
 import Heroku from '../assets/icons/Heroku'
 import Github from '../assets/icons/Github'
 import ExternalLink from '../assets/icons/ExternalLink'
+import Spotify from '../assets/icons/Spotify'
+import GraphQL from '../assets/icons/GraphQL'
 
 export default function Project({
   title,
@@ -43,6 +45,8 @@ export default function Project({
     Vite,
     Svelte,
     Heroku,
+    'Spotify API': Spotify,
+    GraphQL,
   }
   const layoutImg =
     index % 2 === 0

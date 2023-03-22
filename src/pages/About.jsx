@@ -22,6 +22,9 @@ import MySQL from '../assets/icons/MySQL'
 import Sequelize from '../assets/icons/Sequelize'
 import MongoDB from '../assets/icons/MongoDB'
 import Heroku from '../assets/icons/Heroku'
+import GraphQL from '../assets/icons/GraphQL'
+import ESLint from '../assets/icons/ESLint'
+import Prettier from '../assets/icons/Prettier'
 
 export default function About() {
   const skills = [
@@ -43,8 +46,11 @@ export default function About() {
     'MySQL',
     'Sequelize',
     'MongoDB',
-    'Mongoose',
     'Heroku',
+    'GraphQL',
+    'ESLint',
+    'Prettier',
+    'Mongoose',
   ]
   const listGroupItemStyle = {
     backgroundColor: 'var(--background)',
@@ -73,6 +79,9 @@ export default function About() {
     Sequelize,
     MongoDB,
     Heroku,
+    GraphQL,
+    ESLint,
+    Prettier,
   }
   return (
     <main>
