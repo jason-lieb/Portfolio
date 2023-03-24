@@ -104,7 +104,7 @@ export default function About() {
             </h1>
             <h4>Full Stack Software Engineer</h4>
             <p>
-              I'm a <span>software engineer</span> based in Atlanta, GA
+              I'm a <span>software engineer</span> based in Atlanta, GA.
             </p>
             <p>
               As a mechanical engineering major at <span>Georgia Tech</span>, I
