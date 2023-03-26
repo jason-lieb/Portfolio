@@ -17,6 +17,7 @@ export default function Footer() {
             <Stack direction="horizontal">
               <a
                 href="https://github.com/jason-lieb"
+                alt="github profile link"
                 target={'_blank'}
                 rel={'noreferrer'}
                 className={'m-1'}
@@ -25,6 +26,7 @@ export default function Footer() {
               </a>
               <a
                 href="https://www.linkedin.com/in/jasonlieb/"
+                alt="LinkedIn profile link"
                 target={'_blank'}
                 rel={'noreferrer'}
                 className={'m-1'}
