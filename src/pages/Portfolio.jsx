@@ -18,7 +18,7 @@ Notable Features
       title: 'Browse Smart',
       description:
         'A Chrome Extension that creates a pinned tab in each window and syncs with a background service worker to display open tabs and allow the user to delete or sleep tabs for organization and speed. Published on the Chrome Web Store.',
-      image: 'browse-smart.png',
+      image: 'browse-smart.webp',
       alt: 'Browse Smart screenshot',
       technologies: ['Svelte', 'Vite', 'Pico.CSS', 'Chrome Manifest V3'],
       repo: 'https://github.com/jason-lieb/Browse-Smart',
@@ -29,7 +29,7 @@ Notable Features
       title: 'Rhythm Room',
       description:
         'A full-stack MERN web application to create and share playlists using Spotify and OpenAI APIs',
-      image: 'rhythm-room.png',
+      image: 'rhythm-room.webp',
       alt: 'Rhythm Room screenshot',
       technologies: [
         'React',
@@ -49,7 +49,7 @@ Notable Features
       title: 'Stock Visualizer',
       description:
         'A single page application that shows historical data for popular stocks, currency exchange rates, and US government data',
-      image: 'stock-visualizer.jpg', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Blur-chart-data-69760.jpg
+      image: 'stock-visualizer.webp', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Blur-chart-data-69760.jpg
       alt: 'Stock chart on computer',
       technologies: [
         'React',
@@ -65,7 +65,7 @@ Notable Features
       title: 'Fiesta Collector',
       description:
         'An inventory application for collections of Art Deco style dinnerware using Express and MySQL',
-      image: 'fiesta-collector.jpg', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Fiesta_at_Macys_in_East_Wenatchee.jpg
+      image: 'fiesta-collector.webp', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Fiesta_at_Macys_in_East_Wenatchee.jpg
       alt: 'Collection of fiestaware',
       technologies: [
         'NodeJS',

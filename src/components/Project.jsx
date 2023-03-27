@@ -97,10 +97,22 @@ export default function Project({
           direction="horizontal"
           className={`p-2 ${iconAlignClass} projectLinks`}
         >
-          <a href={repo} className="projectSVG">
+          <a
+            href={repo}
+            alt={`Github Repo Link for ${title}`}
+            target={'_blank'}
+            rel={'noreferrer'}
+            className="projectSVG"
+          >
             <Github />
           </a>
-          <a href={deploy} className="projectSVG mx-2">
+          <a
+            href={deploy}
+            alt={`Deployed Link for ${title}`}
+            target={'_blank'}
+            rel={'noreferrer'}
+            className="projectSVG mx-2"
+          >
             {deploy && <ExternalLink />}
           </a>
         </Stack>
