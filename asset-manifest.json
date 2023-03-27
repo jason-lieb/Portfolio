@@ -1,18 +1,23 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d8092329.css",
-    "main.js": "/Portfolio/static/js/main.53be0526.js",
-    "static/media/fiesta-collector.webp": "/Portfolio/static/media/fiesta-collector.fcaae03719361909f12c.webp",
-    "static/media/stock-visualizer.webp": "/Portfolio/static/media/stock-visualizer.40976b866b44fcde4a24.webp",
-    "static/media/rhythm-room.webp": "/Portfolio/static/media/rhythm-room.6e350b616ea79ef553dd.webp",
-    "static/media/browse-smart.webp": "/Portfolio/static/media/browse-smart.032ddfe01c700eff247f.webp",
-    "static/media/profile-pic.webp": "/Portfolio/static/media/profile-pic.60437ffa86199aa7b8c0.webp",
+    "main.js": "/Portfolio/static/js/main.f392e67d.js",
+    "static/media/fiesta-collector-original.webp": "/Portfolio/static/media/fiesta-collector-original.fcaae03719361909f12c.webp",
+    "static/media/stock-visualizer-original.webp": "/Portfolio/static/media/stock-visualizer-original.40976b866b44fcde4a24.webp",
+    "static/media/rhythm-room-original.webp": "/Portfolio/static/media/rhythm-room-original.6e350b616ea79ef553dd.webp",
+    "static/media/fiesta-collector.webp": "/Portfolio/static/media/fiesta-collector.7015c887edf200b64d52.webp",
+    "static/media/browse-smart-original.webp": "/Portfolio/static/media/browse-smart-original.032ddfe01c700eff247f.webp",
+    "static/media/profile-pic-original.webp": "/Portfolio/static/media/profile-pic-original.60437ffa86199aa7b8c0.webp",
+    "static/media/rhythm-room.webp": "/Portfolio/static/media/rhythm-room.3247975e9814317ce39e.webp",
+    "static/media/stock-visualizer.webp": "/Portfolio/static/media/stock-visualizer.d737b2356e84ce24f908.webp",
+    "static/media/profile-pic.webp": "/Portfolio/static/media/profile-pic.81efdcf2744f71d12de4.webp",
+    "static/media/browse-smart.webp": "/Portfolio/static/media/browse-smart.411da8a2050d2d7776ce.webp",
     "index.html": "/Portfolio/index.html",
     "main.d8092329.css.map": "/Portfolio/static/css/main.d8092329.css.map",
-    "main.53be0526.js.map": "/Portfolio/static/js/main.53be0526.js.map"
+    "main.f392e67d.js.map": "/Portfolio/static/js/main.f392e67d.js.map"
   },
   "entrypoints": [
     "static/css/main.d8092329.css",
-    "static/js/main.53be0526.js"
+    "static/js/main.f392e67d.js"
   ]
 }
