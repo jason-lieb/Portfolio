@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d8092329.css",
-    "main.js": "/Portfolio/static/js/main.0b3a5679.js",
-    "static/media/rhythm-room.png": "/Portfolio/static/media/rhythm-room.be39c18e174897c6447f.png",
-    "static/media/fiesta-collector.jpg": "/Portfolio/static/media/fiesta-collector.068ce971621fdb04917d.jpg",
-    "static/media/stock-visualizer.jpg": "/Portfolio/static/media/stock-visualizer.4f93861822ccef9851b0.jpg",
-    "static/media/browse-smart.png": "/Portfolio/static/media/browse-smart.32afff3acb28a2e74ecb.png",
-    "static/media/profile-pic.jpeg": "/Portfolio/static/media/profile-pic.bc5c4bac02e94ac1554f.jpeg",
+    "main.js": "/Portfolio/static/js/main.53be0526.js",
+    "static/media/fiesta-collector.webp": "/Portfolio/static/media/fiesta-collector.fcaae03719361909f12c.webp",
+    "static/media/stock-visualizer.webp": "/Portfolio/static/media/stock-visualizer.40976b866b44fcde4a24.webp",
+    "static/media/rhythm-room.webp": "/Portfolio/static/media/rhythm-room.6e350b616ea79ef553dd.webp",
+    "static/media/browse-smart.webp": "/Portfolio/static/media/browse-smart.032ddfe01c700eff247f.webp",
+    "static/media/profile-pic.webp": "/Portfolio/static/media/profile-pic.60437ffa86199aa7b8c0.webp",
     "index.html": "/Portfolio/index.html",
     "main.d8092329.css.map": "/Portfolio/static/css/main.d8092329.css.map",
-    "main.0b3a5679.js.map": "/Portfolio/static/js/main.0b3a5679.js.map"
+    "main.53be0526.js.map": "/Portfolio/static/js/main.53be0526.js.map"
   },
   "entrypoints": [
     "static/css/main.d8092329.css",
-    "static/js/main.0b3a5679.js"
+    "static/js/main.53be0526.js"
   ]
 }
