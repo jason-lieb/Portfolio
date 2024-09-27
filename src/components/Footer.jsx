@@ -3,7 +3,6 @@ import Stack from 'react-bootstrap/Stack'
 import Github from '../assets/icons/Github'
 import LinkedIn from '../assets/icons/LinkedIn'
 import React from '../assets/icons/React'
-import Bootstrap from '../assets/icons/Bootstrap'
 
 export default function Footer() {
   return (

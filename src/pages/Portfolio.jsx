@@ -14,6 +14,16 @@ export default function Portfolio() {
         'https://chrome.google.com/webstore/detail/browse-smart/cfaokojidpjmmpaoheemadkjmmoecdlc',
     },
     {
+      title: 'Stock Visualizer',
+      description:
+        'A single page application that shows historical data for popular stocks, currency exchange rates, and US government data',
+      image: 'stock-visualizer.webp', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Blur-chart-data-69760.jpg
+      alt: 'Stock chart on computer',
+      technologies: ['React', 'Bootstrap', 'Vite', 'React Query', 'Google Charts'],
+      repo: 'https://github.com/jason-lieb/Stock-Visualizer',
+      deploy: 'https://jason-lieb.github.io/Stock-Visualizer/',
+    },
+    {
       title: 'Rhythm Room',
       description:
         'A full-stack MERN web application to create and share playlists using Spotify and OpenAI APIs',
@@ -31,16 +41,6 @@ export default function Portfolio() {
         'Material UI',
       ],
       repo: 'https://github.com/jason-lieb/Rhythm-Room',
-    },
-    {
-      title: 'Stock Visualizer',
-      description:
-        'A single page application that shows historical data for popular stocks, currency exchange rates, and US government data',
-      image: 'stock-visualizer.webp', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Blur-chart-data-69760.jpg
-      alt: 'Stock chart on computer',
-      technologies: ['React', 'Bootstrap', 'Vite', 'React Query', 'Google Charts'],
-      repo: 'https://github.com/jason-lieb/Stock-Visualizer',
-      deploy: 'https://jason-lieb.github.io/Stock-Visualizer/',
     },
     {
       title: 'Fiesta Collector',

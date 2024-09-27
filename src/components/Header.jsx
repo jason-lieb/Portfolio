@@ -20,9 +20,6 @@ export default function Header() {
               <LinkContainer to={'projects'}>
                 <Nav.Link>Projects</Nav.Link>
               </LinkContainer>
-              <LinkContainer to={'contact'}>
-                <Nav.Link>Contact</Nav.Link>
-              </LinkContainer>
               <a
                 className="nav-link active resume"
                 href={process.env.PUBLIC_URL + '/Resume.pdf'}

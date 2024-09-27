@@ -93,6 +93,10 @@ footer .hstack {
   align-items: flex-end;
 }
 
+footer .hstack .hstack {
+  justify-content: flex-end;
+}
+
 footer .vstack {
   max-width: fit-content;
 }
@@ -135,6 +139,13 @@ form {
 
 .projectSVG svg:hover {
   fill: var(--text);
+}
+
+.flex {
+  margin-left: 4rem;
+  max-width: 12rem;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 991px) {
