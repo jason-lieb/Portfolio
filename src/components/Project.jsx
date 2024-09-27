@@ -48,14 +48,8 @@ export default function Project({
     'Spotify API': Spotify,
     GraphQL,
   }
-  const layoutImg =
-    index % 2 === 0
-      ? { gridArea: '1 / 1 / -1 / -6' }
-      : { gridArea: '1 / 6 / -1 / -1' }
-  const layoutText =
-    index % 2 === 0
-      ? { gridArea: '1 / 6 / -1 / -1' }
-      : { gridArea: '1 / 1 / -1 / -6' }
+  const layoutImg = index % 2 === 0 ? {gridArea: '1 / 1 / -1 / -6'} : {gridArea: '1 / 6 / -1 / -1'}
+  const layoutText = index % 2 === 0 ? {gridArea: '1 / 6 / -1 / -1'} : {gridArea: '1 / 1 / -1 / -6'}
   const textAlignClass = index % 2 === 0 ? 'text-end' : 'text-start'
   const iconAlignClass = index % 2 === 0 ? 'align-self-end' : 'align-self-start'
   const listGroupItemStyle = {
@@ -93,10 +87,7 @@ export default function Project({
             ))}
           </ListGroup>
         </Stack>
-        <Stack
-          direction="horizontal"
-          className={`p-2 ${iconAlignClass} projectLinks`}
-        >
+        <Stack direction="horizontal" className={`p-2 ${iconAlignClass} projectLinks`}>
           <a
             href={repo}
             alt={`Github Repo Link for ${title}`}

@@ -46,9 +46,6 @@ export default function Footer() {
               <div className="m-1">
                 <React />
               </div>
-              <div className="m-1">
-                <Bootstrap />
-              </div>
             </Stack>
           </Stack>
         </Stack>

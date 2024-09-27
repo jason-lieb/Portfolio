@@ -1,18 +1,6 @@
 import Project from '../components/Project'
 
 export default function Portfolio() {
-  /*
-What was the outcome
-Why build this project?
-What challenged?
-What was learned?
-How has this helped future projects
-What do differently
-Process (wireframes, trello, github project)
-Technologies used?
-Notable Features
-
-*/
   const projects = [
     {
       title: 'Browse Smart',
@@ -43,7 +31,6 @@ Notable Features
         'Material UI',
       ],
       repo: 'https://github.com/jason-lieb/Rhythm-Room',
-      deploy: 'https://rhythm-room.herokuapp.com/',
     },
     {
       title: 'Stock Visualizer',
@@ -51,13 +38,7 @@ Notable Features
         'A single page application that shows historical data for popular stocks, currency exchange rates, and US government data',
       image: 'stock-visualizer.webp', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Blur-chart-data-69760.jpg
       alt: 'Stock chart on computer',
-      technologies: [
-        'React',
-        'Bootstrap',
-        'Vite',
-        'React Query',
-        'Google Charts',
-      ],
+      technologies: ['React', 'Bootstrap', 'Vite', 'React Query', 'Google Charts'],
       repo: 'https://github.com/jason-lieb/Stock-Visualizer',
       deploy: 'https://jason-lieb.github.io/Stock-Visualizer/',
     },
@@ -67,16 +48,8 @@ Notable Features
         'An inventory application for collections of Art Deco style dinnerware using Express and MySQL',
       image: 'fiesta-collector.webp', // image available under Creative Commons at https://commons.wikimedia.org/wiki/File:Fiesta_at_Macys_in_East_Wenatchee.jpg
       alt: 'Collection of fiestaware',
-      technologies: [
-        'NodeJS',
-        'Express',
-        'MySQL',
-        'Handlebars',
-        'Tailwind',
-        'Heroku',
-      ],
+      technologies: ['NodeJS', 'Express', 'MySQL', 'Handlebars', 'Tailwind', 'Heroku'],
       repo: 'https://github.com/jason-lieb/Fiesta-Collector',
-      deploy: 'https://fiesta-collector.herokuapp.com/',
     },
   ]
   return (
