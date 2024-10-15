@@ -2,7 +2,7 @@
 
 ## Description
 
-A React and Bootstrap portfolio that highlights my skills and best projects
+A React and Bootstrap portfolio that highlights my skills and projects
 
 ## Deployed Portfolio
 

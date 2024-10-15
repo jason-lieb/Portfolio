@@ -24,6 +24,9 @@
         devShells.default = nixpkgs-23-11.mkShell {
           name = "portfolio";
           buildInputs = with packages; [ nodejs ];
+          shellHook = ''
+            npm install
+          '';
         };
       }
     );
