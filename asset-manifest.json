@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a6ebac6f.css",
-    "main.js": "/Portfolio/static/js/main.ba16dc54.js",
+    "main.js": "/Portfolio/static/js/main.c95b39d7.js",
     "static/media/fiesta-collector.webp": "/Portfolio/static/media/fiesta-collector.7015c887edf200b64d52.webp",
     "static/media/rhythm-room.webp": "/Portfolio/static/media/rhythm-room.3247975e9814317ce39e.webp",
     "static/media/stock-visualizer.webp": "/Portfolio/static/media/stock-visualizer.d737b2356e84ce24f908.webp",
+    "static/media/obsidian-browser-interface-plugin.webp": "/Portfolio/static/media/obsidian-browser-interface-plugin.c84163fa1b00fc2eee23.webp",
+    "static/media/browser-interface.webp": "/Portfolio/static/media/browser-interface.1eb95b1cead8dd2a295f.webp",
     "static/media/profile-pic.webp": "/Portfolio/static/media/profile-pic.81efdcf2744f71d12de4.webp",
     "static/media/browse-smart.webp": "/Portfolio/static/media/browse-smart.411da8a2050d2d7776ce.webp",
     "index.html": "/Portfolio/index.html",
     "main.a6ebac6f.css.map": "/Portfolio/static/css/main.a6ebac6f.css.map",
-    "main.ba16dc54.js.map": "/Portfolio/static/js/main.ba16dc54.js.map"
+    "main.c95b39d7.js.map": "/Portfolio/static/js/main.c95b39d7.js.map"
   },
   "entrypoints": [
     "static/css/main.a6ebac6f.css",
-    "static/js/main.ba16dc54.js"
+    "static/js/main.c95b39d7.js"
   ]
 }
