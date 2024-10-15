@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a6ebac6f.css",
-    "main.js": "/Portfolio/static/js/main.c95b39d7.js",
+    "main.js": "/Portfolio/static/js/main.50d2b8eb.js",
     "static/media/fiesta-collector.webp": "/Portfolio/static/media/fiesta-collector.7015c887edf200b64d52.webp",
     "static/media/rhythm-room.webp": "/Portfolio/static/media/rhythm-room.3247975e9814317ce39e.webp",
     "static/media/stock-visualizer.webp": "/Portfolio/static/media/stock-visualizer.d737b2356e84ce24f908.webp",
@@ -11,10 +11,10 @@
     "static/media/browse-smart.webp": "/Portfolio/static/media/browse-smart.411da8a2050d2d7776ce.webp",
     "index.html": "/Portfolio/index.html",
     "main.a6ebac6f.css.map": "/Portfolio/static/css/main.a6ebac6f.css.map",
-    "main.c95b39d7.js.map": "/Portfolio/static/js/main.c95b39d7.js.map"
+    "main.50d2b8eb.js.map": "/Portfolio/static/js/main.50d2b8eb.js.map"
   },
   "entrypoints": [
     "static/css/main.a6ebac6f.css",
-    "static/js/main.c95b39d7.js"
+    "static/js/main.50d2b8eb.js"
   ]
 }
