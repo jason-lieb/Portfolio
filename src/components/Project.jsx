@@ -61,12 +61,7 @@ export default function Project({
   }
   return (
     <Container className="py-4 d-grid px-md-5 projectCard">
-      <img
-        src={require('../assets/images/' + image)}
-        alt={alt}
-        className="projectImg rounded-2"
-        style={layoutImg}
-      />
+      <img src={getImageUrl(image)} alt={alt} className="projectImg rounded-2" style={layoutImg} />
       <Stack style={layoutText} className="py-md-5 my-auto">
         <h3 className={`projectTitle px-md-3 ${textAlignClass}`}>
           <span>{title}</span>
@@ -110,4 +105,8 @@ export default function Project({
       </Stack>
     </Container>
   )
+}
+
+function getImageUrl(imageName) {
+  return new URL(`../assets/images/${imageName}`, import.meta.url).href
 }

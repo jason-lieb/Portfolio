@@ -1,4 +1,4 @@
-import {HashRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import ErrorPage from './pages/ErrorPage'
@@ -9,7 +9,7 @@ import './assets/App.css'
 
 function App({currentPage}) {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Header page={currentPage} />
       <Routes>
         <Route index element={<About />} />
@@ -17,7 +17,7 @@ function App({currentPage}) {
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 

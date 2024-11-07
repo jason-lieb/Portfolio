@@ -20,14 +20,6 @@ export default function Header() {
               <LinkContainer to={'projects'}>
                 <Nav.Link>Projects</Nav.Link>
               </LinkContainer>
-              <a
-                className="nav-link active resume"
-                href={process.env.PUBLIC_URL + '/Resume.pdf'}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Resume
-              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

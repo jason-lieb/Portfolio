@@ -3,6 +3,7 @@ import Stack from 'react-bootstrap/Stack'
 import Github from '../assets/icons/Github'
 import LinkedIn from '../assets/icons/LinkedIn'
 import React from '../assets/icons/React'
+import Bootstrap from '../assets/icons/Bootstrap'
 
 export default function Footer() {
   return (
@@ -35,7 +36,7 @@ export default function Footer() {
             </Stack>
           </Stack>
           <h6>
-            <span>© 2023 Jason Lieb</span>
+            <span>© 2024 Jason Lieb</span>
           </h6>
           <Stack align="right">
             <h5 className="mx-2">
@@ -44,6 +45,9 @@ export default function Footer() {
             <Stack direction="horizontal">
               <div className="m-1">
                 <React />
+              </div>
+              <div className="m-1">
+                <Bootstrap />
               </div>
             </Stack>
           </Stack>
