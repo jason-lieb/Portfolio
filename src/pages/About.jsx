@@ -4,7 +4,6 @@ import LinkContainer from 'react-router-bootstrap/LinkContainer'
 import Container from 'react-bootstrap/Container'
 import Stack from 'react-bootstrap/Stack'
 import profilePic from '../assets/images/profile-pic.webp'
-import ExternalLink from '../assets/icons/ExternalLink'
 
 export default function About() {
   return (
