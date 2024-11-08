@@ -4,6 +4,7 @@ import LinkContainer from 'react-router-bootstrap/LinkContainer'
 import Container from 'react-bootstrap/Container'
 import Stack from 'react-bootstrap/Stack'
 import profilePic from '../assets/images/profile-pic.webp'
+import ExternalLink from '../assets/icons/ExternalLink'
 
 export default function About() {
   return (
@@ -27,7 +28,7 @@ export default function About() {
             <div className="flex">
               <a
                 className="nav-link active resume"
-                href={'/resume.pdf'}
+                href={'/Portfolio/resume.pdf'}
                 target="_blank"
                 rel="noreferrer"
               >

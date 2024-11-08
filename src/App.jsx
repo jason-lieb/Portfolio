@@ -12,8 +12,8 @@ function App({currentPage}) {
     <BrowserRouter>
       <Header page={currentPage} />
       <Routes>
-        <Route index element={<About />} />
-        <Route path="projects" element={<Portfolio />} />
+        <Route path="/Portfolio/" element={<About />} />
+        <Route path="/Portfolio/projects" element={<Portfolio />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
