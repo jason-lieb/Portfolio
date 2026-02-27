@@ -3,6 +3,15 @@ import Project from '../components/Project'
 
 const projects: ProjectType[] = [
   {
+    title: 'Train Smart',
+    description:
+      'A cross-platform fitness tracking app with web and mobile versions for logging workouts, tracking progress, and managing exercises.',
+    image: 'train-smart.webp',
+    alt: 'Train Smart fitness tracking app screenshot',
+    technologies: ['TypeScript', 'React', 'React Native', 'Vite', 'Tailwind', 'Zustand', 'Dexie'],
+    repo: 'https://github.com/jason-lieb/train-smart',
+  },
+  {
     title: 'Browser Interface',
     description:
       'A chromium-based extension that saves tabs as markdown to your filesystem to manage them.',

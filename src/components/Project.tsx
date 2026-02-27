@@ -15,12 +15,13 @@ import Github from '../assets/icons/Github'
 import ExternalLink from '../assets/icons/ExternalLink'
 import Spotify from '../assets/icons/Spotify'
 import GraphQL from '../assets/icons/GraphQL'
+import Typescript from '../assets/icons/Typescript'
 
 interface ProjectProps extends ProjectType {
   index: number
 }
 
-const icons: Record<string, React.ComponentType<{ className?: string }>> = {
+const icons: Record<string, React.ComponentType<{ className?: string }> | undefined> = {
   React: ReactIcon,
   Bootstrap,
   NodeJS,
@@ -35,6 +36,10 @@ const icons: Record<string, React.ComponentType<{ className?: string }>> = {
   Heroku,
   'Spotify API': Spotify,
   GraphQL,
+  TypeScript: Typescript,
+  Zustand: undefined,
+  Dexie: undefined,
+  'React Native': ReactIcon,
 }
 
 function getImageUrl(imageName: string): string {
