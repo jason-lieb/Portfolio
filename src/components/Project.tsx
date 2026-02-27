@@ -59,7 +59,9 @@ export default function Project({
     <div className="py-4 px-4 md:px-12 max-w-4xl mx-auto">
       <div className="grid grid-cols-12 md:grid-cols-12 gap-0 relative">
         {/* Image */}
-        <div className={`col-span-12 md:col-span-7 ${isEven ? 'md:col-start-1' : 'md:col-start-6'} row-start-1`}>
+        <div
+          className={`col-span-12 md:col-span-7 ${isEven ? 'md:col-start-1' : 'md:col-start-6'} row-start-1`}
+        >
           <img
             src={getImageUrl(image)}
             alt={alt}
@@ -68,10 +70,10 @@ export default function Project({
         </div>
 
         {/* Content */}
-        <div className={`col-span-12 md:col-span-7 ${isEven ? 'md:col-start-6' : 'md:col-start-1'} row-start-1 flex flex-col justify-center py-4 md:py-8 z-10`}>
-          <h3 className={`text-accent text-xl font-semibold px-3 ${textAlign}`}>
-            {title}
-          </h3>
+        <div
+          className={`col-span-12 md:col-span-7 ${isEven ? 'md:col-start-6' : 'md:col-start-1'} row-start-1 flex flex-col justify-center py-4 md:py-8 z-10`}
+        >
+          <h3 className={`text-accent text-xl font-semibold px-3 ${textAlign}`}>{title}</h3>
           <div className="bg-card rounded-lg p-4 shadow-[0_0.5rem_1rem_rgba(52,152,219,0.25)] mt-2">
             <p className="text-text mb-3">{description}</p>
             <div className="flex flex-wrap gap-2">
