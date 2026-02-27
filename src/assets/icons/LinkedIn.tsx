@@ -1,7 +1,8 @@
-export default function LinkedIn() {
+import type { IconProps } from '../../types'
+
+export default function LinkedIn({ className }: IconProps) {
   return (
-    <svg fill="#2867b2" viewBox="0 0 36 36">
-      {/* hover fill #3a80d3*/}
+    <svg fill="currentColor" viewBox="0 0 36 36" className={className}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"

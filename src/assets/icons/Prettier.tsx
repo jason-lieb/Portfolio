@@ -1,10 +1,13 @@
-export default function Prettier() {
+import type { IconProps } from '../../types'
+
+export default function Prettier({ className }: IconProps) {
   return (
     <svg
       fill="#000000"
       viewBox="0 0 24 24"
       role="img"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g

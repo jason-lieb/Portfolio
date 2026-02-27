@@ -1,6 +1,8 @@
-export default function Spotify() {
+import type { IconProps } from '../../types'
+
+export default function Spotify({ className }: IconProps) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" className={className}>
       <path
         fill="#1ed760"
         d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8Z"

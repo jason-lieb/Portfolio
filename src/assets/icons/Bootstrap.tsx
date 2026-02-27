@@ -1,6 +1,8 @@
-export default function Bootstrap() {
+import type { IconProps } from '../../types'
+
+export default function Bootstrap({ className }: IconProps) {
   return (
-    <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" className={className}>
       <defs>
         <linearGradient
           id="bootstrap-original-a"

@@ -1,10 +1,13 @@
-export default function ESLint() {
+import type { IconProps } from '../../types'
+
+export default function ESLint({ className }: IconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       height="20"
       viewBox="0 0 323.99971 285.09601"
       width="323.99973"
+      className={className}
     >
       <g transform="matrix(1.2548929 0 0 1.2548929 -22.9868 -19.949332)">
         <path

@@ -1,13 +1,14 @@
-export default function GraphQL() {
+import type { IconProps } from '../../types'
+
+export default function GraphQL({ className }: IconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
-      id="GraphQL_Logo"
       x="0px"
       y="0px"
       viewBox="0 0 400 400"
-      enableBackground="new 0 0 400 400"
+      className={className}
     >
       <g>
         <g>
@@ -24,13 +25,7 @@ export default function GraphQL() {
         </g>
         <g>
           <g>
-            <rect
-              x="39.8"
-              y="272.2"
-              fill="#E535AB"
-              width="320.3"
-              height="16.6"
-            />
+            <rect x="39.8" y="272.2" fill="#E535AB" width="320.3" height="16.6" />
           </g>
         </g>
         <g>
@@ -88,13 +83,7 @@ export default function GraphQL() {
         </g>
         <g>
           <g>
-            <rect
-              x="330.9"
-              y="107.5"
-              fill="#E535AB"
-              width="16.6"
-              height="185"
-            />
+            <rect x="330.9" y="107.5" fill="#E535AB" width="16.6" height="185" />
           </g>
         </g>
         <g>

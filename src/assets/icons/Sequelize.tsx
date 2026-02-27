@@ -1,6 +1,8 @@
-export default function Sequelize() {
+import type { IconProps } from '../../types'
+
+export default function Sequelize({ className }: IconProps) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" className={className}>
       <path
         fill="#2f406a"
         d="M101.84 41.72V86l-37.66 22.32-.34.31v16.57l.34.32 53-30.64V33.12l-.5-.12-15 8.36.08.36"
