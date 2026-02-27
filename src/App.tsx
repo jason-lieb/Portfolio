@@ -1,16 +1,14 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import ErrorPage from './pages/ErrorPage'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './assets/App.css'
 
-function App({currentPage}) {
+export default function App() {
   return (
     <BrowserRouter>
-      <Header page={currentPage} />
+      <Header />
       <Routes>
         <Route path="/Portfolio/" element={<About />} />
         <Route path="/Portfolio/projects" element={<Portfolio />} />
@@ -20,5 +18,3 @@ function App({currentPage}) {
     </BrowserRouter>
   )
 }
-
-export default App
