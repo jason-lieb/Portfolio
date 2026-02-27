@@ -9,11 +9,13 @@ export default function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Routes>
-        <Route path="/Portfolio/" element={<About />} />
-        <Route path="/Portfolio/projects" element={<Portfolio />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
+      <main id="main-content">
+        <Routes>
+          <Route path="/Portfolio/" element={<About />} />
+          <Route path="/Portfolio/projects" element={<Portfolio />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </main>
       <Footer />
     </BrowserRouter>
   )
