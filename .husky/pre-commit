@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# Load nvm if available
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm use --delete-prefix v20.20.0 >/dev/null 2>&1 || true
+
+npx lint-staged

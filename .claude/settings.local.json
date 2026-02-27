@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(npm install:*)",
+      "Bash(bun install:*)",
+      "Bash(bun run:*)",
+      "Bash(ls:*)",
+      "Bash(pnpm install:*)",
+      "Bash(source:*)",
+      "Bash(/Users/jason.lieb/Portfolio/.prettierrc:*)"
+    ]
+  }
+}
