@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #1c1d25;
+  --color-card: #17202a;
+  --color-text: #b0b2c3;
+  --color-accent: #3498db;
+  --font-family-sans: 'Roboto', sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: var(--font-family-sans);
+}
