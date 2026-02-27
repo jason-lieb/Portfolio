@@ -70,6 +70,9 @@ export default function Project({
           <img
             src={getImageUrl(image)}
             alt={alt}
+            loading="lazy"
+            width={600}
+            height={400}
             className="w-full max-w-[600px] rounded-lg shadow-[0_0.5rem_1rem_rgba(52,152,219,0.5)]"
           />
         </div>
