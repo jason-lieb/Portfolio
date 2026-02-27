@@ -29,7 +29,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <h6 className="text-accent text-sm">© 2024 Jason Lieb</h6>
+          <h6 className="text-accent text-sm">© {new Date().getFullYear()} Jason Lieb</h6>
           <div className="flex flex-col items-end">
             <h5 className="mx-2 text-accent text-base">Built with</h5>
             <div className="flex">
